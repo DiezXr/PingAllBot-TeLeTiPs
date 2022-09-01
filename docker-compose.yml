@@ -3,6 +3,6 @@ services:
   worker:
     build: .
     environment:
-      - API_HASH=7e77ceb7f75fc93920ebdab55fe8d2d1
-      - API_ID=11015555
-      - BOT_TOKEN=5530860332:AAFCpd4XCJvbbAL1SGFYXcseEJABIQAxhGs
+      - API_HASH=${API_HASH}
+      - API_ID=${API_ID}
+      - BOT_TOKEN=${BOT_TOKEN}
